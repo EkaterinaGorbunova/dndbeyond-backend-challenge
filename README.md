@@ -39,11 +39,15 @@ These endpoints are used to interact with character resources in the application
 | POST        | `http://localhost:3000/character/heal/:characterId` | Heal the specified character.                   |
 | POST        | `http://localhost:3000/character/add-temporary-hp/:characterId` | Add temporary Hit Points to the specified character. |
 
+
+*The filename is used as the `characterId`.
+
 # Test the API
 
 You can use [Postman](https://www.postman.com) to test API endpoints.
     
 ### Request examples:
+
 1. Fetch character details by ID: 
     - Endpoint: http://localhost:3000/character/briv
 
@@ -73,8 +77,3 @@ You can use [Postman](https://www.postman.com) to test API endpoints.
         "temporaryHpAmount": 5
       }
     ```
-
-
-
-
-
