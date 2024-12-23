@@ -2,9 +2,6 @@
 
 ### This repository contains my implementation of the [DDB Back-End Developer Challenge](https://github.com/DnDBeyond/back-end-developer-challenge). 
 
-### Overview
-This task focuses on creating an API for managing a player character's Hit Points (HP) within our game. The API will enable clients to perform various operations related to HP, including dealing damage of different types, considering character resistances and immunities, healing, and adding temporary Hit Points. The task requires building a service that interacts with HP data provided in the `briv.json` file and persists throughout the application's lifetime.
-
 # Stack
 - Node.js
 - Express.js
